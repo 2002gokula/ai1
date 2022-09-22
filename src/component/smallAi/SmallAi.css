@@ -1,0 +1,101 @@
+.SmallAi {
+  background-color: rgb(245, 4, 4) !important;
+  /* width: 100%; */
+  padding: 20px;
+}
+.SmallPage {
+  display: flex;
+  background-color: white;
+  border-radius: 30px;
+}
+.RightSide__SmallScreen {
+  flex: 0.1;
+  /* position: relative; */
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  row-gap: 80px;
+}
+.MiddleSide__SmallScreen {
+  flex: 0.9;
+  position: relative;
+}
+
+.Menu__Bar {
+  background: #4a0cf9;
+  border-radius: 28px;
+  padding: 60px 30px;
+}
+.Menu__icon {
+  width: 30px;
+  height: 30px;
+  align-content: center;
+  justify-self: center;
+}
+.Home__Icon {
+  width: 34px;
+  height: 32px;
+  margin-left: 25px;
+  margin-top: 90px;
+}
+.Search__Icon {
+  width: 34px;
+  height: 32px;
+  display: block;
+  margin-left: 25px;
+  margin-top: 90px;
+}
+.FullScreen__Icon {
+  width: 34px;
+  height: 32px;
+  display: block;
+  margin-left: 25px;
+  margin-top: 90px;
+}
+.Setting__Icon {
+  width: 34px;
+  height: 32px;
+  display: block;
+  margin-left: 25px;
+  margin-top: 40px;
+}
+.Setting__h2 {
+  display: block;
+  color: black;
+  align-items: center;
+  text-align: center;
+  margin-left: -20px;
+  margin-top: 40px;
+  font-size: 20px;
+  transform: rotate(-90deg);
+}
+.Spline__Animation1 {
+  width: 100% !important;
+  height: 100% !important;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+.Wifi__Icon {
+  width: 26px;
+  height: 26px;
+  /* position: absolute; */
+  cursor: pointer;
+  margin-left: 600px;
+  margin-top: 10px;
+}
+.SmallScreen__Header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Time__SmallScreen {
+  color: black;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

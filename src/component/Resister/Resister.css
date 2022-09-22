@@ -1,0 +1,57 @@
+.Resister {
+  display: flex;
+  padding-top: 90px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Resister__RightSide {
+  left: 196px;
+  flex: 0.47;
+  top: 5204px;
+}
+.Resister__RightSide > img {
+  width: 45%;
+  margin-top: 50px;
+}
+.Resister__LeftSide {
+  flex: 0.3;
+  align-items: center;
+}
+
+.Resister__LeftSide > button {
+  width: 172px;
+  height: 47.13px;
+  left: 865px;
+  top: 229.17px;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    #12c2e9 -15.84%,
+    #c471ed 53.22%,
+    #f64f59 122.28%
+  );
+  border-radius: 4px;
+}
+
+@media (max-width: 786px) {
+  .Resister {
+    flex-direction: column;
+    display: block;
+  }
+  .Resister__RightSide > img {
+    margin-left: 100px;
+  }
+  .Resister__LeftSide > h1 {
+    text-align: center;
+  }
+  .Resister__LeftSide > p {
+    text-align: center;
+  }
+  .Resister__LeftSide > button {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 27%;
+  }
+}

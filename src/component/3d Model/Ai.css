@@ -1,0 +1,22 @@
+.Ai__Button_Div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Ai__Stop__Button {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* margin-left: auto; */
+}
+.Spline__Animation {
+}
+
+@media (max-width: 786px) {
+  .Spline__Animation {
+    margin-top: 200px;
+    height: 2000px;
+  }
+}

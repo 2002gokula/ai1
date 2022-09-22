@@ -1,0 +1,94 @@
+.Header {
+  display: flex;
+
+  position: absolute;
+  justify-content: space-between;
+
+  align-items: center;
+
+  width: 90%;
+  padding-left: 70px;
+  height: 42px;
+  transition: all 0.2s ease-out;
+  top: 33px;
+}
+.Header__title {
+  display: flex;
+  color: white;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  font-size: 14px;
+  gap: 20px;
+
+  position: absolute;
+  left: 57.21%;
+  right: 3.51%;
+  top: 2.38%;
+  bottom: 2.38%;
+}
+.Header__title > h1 {
+  width: 63px;
+  height: 28px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.Header__button {
+  width: 128px;
+  height: 40px;
+  transition: all 0.8s ease-out;
+}
+.Header__button > button:hover {
+  background-color: black;
+  color: white;
+}
+.Header__button > button {
+  width: 128px;
+  margin-left: 20px;
+  border-radius: 24px;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  height: 40px;
+  color: black;
+  z-index: 999;
+  font-weight: 600;
+  padding: 10px 40px;
+}
+.Header__logo > h2 {
+  color: white;
+  padding: 10px;
+}
+.Header__logo {
+  display: flex;
+  align-items: center;
+}
+.Header__logo > img {
+  width: 100%;
+}
+
+@media (max-width: 786px) {
+  .Header__title {
+    display: none;
+  }
+}

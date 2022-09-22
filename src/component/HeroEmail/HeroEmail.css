@@ -1,0 +1,53 @@
+.HeroEmail {
+  align-items: center;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.HeroEmail > h1 {
+  font-size: 50px;
+}
+
+.HeroEmail > p {
+  color: #898ca9;
+}
+
+.HeroEmail > p > a {
+  text-decoration: none;
+  color: white;
+}
+.Email {
+  align-items: center;
+  justify-content: center;
+}
+.Email > input {
+  outline: none;
+  position: relative;
+  background-color: transparent;
+  padding: 16px 20px;
+  gap: 10px;
+
+  box-shadow: inset 0px 0px 30px rgba(255, 255, 255, 0.05),
+    inset 0px 2px 2px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(40px);
+  color: white;
+  border: 1px solid rgba(255, 59, 255, 1);
+  border-radius: 10px;
+  width: 304px;
+  height: 56px;
+}
+
+.Email__div {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.Email_button {
+  z-index: 999;
+  position: absolute;
+  padding-left: 240px;
+}
+.Email_button > button {
+  background-color: transparent;
+}

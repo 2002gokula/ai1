@@ -1,0 +1,227 @@
+.Hero__title > h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 98px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding-top: 150px;
+  background: linear-gradient(
+    90deg,
+    #ff3bff 33%,
+    #ecbfbf 38.02%,
+    #5c24ff 75.83%,
+    #d94fd5 100%
+  );
+  margin: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.Hero__title {
+  background-color: #000000;
+  overflow: hidden;
+}
+.Hero__title > h4 {
+  top: 40px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 50px;
+  margin: 0;
+  color: #ffffff;
+}
+.Hero__title > p {
+  align-items: center;
+  width: 723px;
+  text-align: center;
+  margin: auto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  margin-top: 20px;
+  letter-spacing: 0.72px;
+
+  color: #ffffff;
+}
+.Hero__Button {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+  /* width: 50px; */
+  justify-content: center;
+}
+.button__hero:hover {
+  background-color: white;
+  color: black;
+}
+.button__hero1:hover {
+  background-color: white;
+  color: black;
+}
+.button__hero {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  width: 136px;
+  height: 50px;
+  z-index: 999;
+
+  background: black;
+  color: white;
+  border: 2px solid rgba(255, 59, 255, 1);
+  border-radius: 100px;
+}
+.Hero__Button > .button__hero1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  width: 136px;
+  height: 50px;
+
+  background: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 100px;
+  z-index: 999;
+}
+.Hero__BannerImg {
+  width: 90%;
+  height: 90%;
+  margin-top: -90px;
+  margin-left: 60px;
+  align-items: center;
+  justify-content: center;
+  z-index: -999;
+}
+
+.Hero__Notification {
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 93px;
+}
+
+.Notification__rightSide {
+  flex: 0.47;
+}
+
+.Notification__rightSide > h1 {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 50px;
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.Notification__rightSide > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.Button__for__buy:hover {
+  background-color: black;
+  color: white;
+}
+.Button__for__Explore:hover {
+  background-color: white;
+  color: black;
+}
+.Notification__Button {
+  display: flex;
+  gap: 20px;
+}
+.Button__for__buy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 46px;
+  background: #65e4a3;
+  border: 2px solid #69e6a6;
+  border-radius: 56px;
+}
+.Button__for__Explore {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 37px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #ffffff;
+  border-radius: 56px;
+}
+.Notification__leftSide {
+  flex: 0.3;
+}
+.Notification__leftSide > img {
+  width: 90%;
+}
+.Color__red {
+  position: absolute;
+  width: 510px;
+  height: 510px;
+  left: -255px;
+  top: 1190px;
+
+  background: #ff0011;
+  opacity: 0.56;
+  filter: blur(300px);
+}
+
+.Hero__color {
+  filter: blur(400px);
+
+  position: absolute;
+  width: 410px;
+  margin-left: -300px;
+  height: 510px;
+  background: #c471ed;
+  overflow: hidden;
+  opacity: 1;
+}
+
+@media (max-width: 786px) {
+  .Hero__BannerImg {
+    margin-top: 20px;
+    margin-left: 19px;
+    align-items: center;
+  }
+  .Hero__title > h3,
+  .Hero__title > h4 {
+    font-size: 32px;
+  }
+
+  .Hero__title > p {
+    font-size: 22px;
+
+    width: 400px;
+  }
+  .Hero__Notification {
+    flex-direction: column;
+    display: block;
+    /* overflow: hidden; */
+    font-size: 12px;
+    width: 80%;
+    padding-left: 60px;
+    gap: 90px;
+  }
+  .Notification__leftSide > img {
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+  .Hero__color {
+    /* display: none; */
+    width: 80%;
+  }
+}
